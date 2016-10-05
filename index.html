@@ -3,12 +3,12 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   </head>
-  <body>
+  <body ng-controller="StoreController as store">
     <script type="text/javascript" src="angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 
     <!-- attach controller with actual name and give it an alias using as -->
-    <div ng-controller="StoreController as store">
+    <div ng-hide="store.product.soldOut">
       <h1>{{store.product.name}}</h1>
       <h2>{{store.product.price}}</h2>
       <p>{{store.product.description}}</p>
