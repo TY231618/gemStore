@@ -7,8 +7,12 @@
     <script type="text/javascript" src="angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 
-    <p>
-      {{"hello"}}
-    </p>
+    <!-- attach controller with actual name and give it an alias using as -->
+    <div ng-controller="StoreController as store">
+      <h1>{{store.product.name}}</h1>
+      <h2>{{store.product.price}}</h2>
+      <p>{{store.product.description}}</p>
+    </div>
+
   </body>
 </html>
