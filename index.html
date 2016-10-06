@@ -10,11 +10,15 @@
     <!-- attach controller with actual name and give it an alias using as -->
     <div ng-repeat="product in store.products" ng-hide="store.product.soldOut">
       <h1>{{product.name}}</h1>
-      <img ng-src="{{product.images[0].full}}" />
+
+      <!-- trying to use repeat again to display all images -->
+      <!-- <li ng-repeat="image in product.images"> -->
+        <img ng-src="{{ product.images[0].thumb }}" />
+      <!-- </li> -->
       <h2>{{product.price | currency}}</h2>
       <p>{{product.description}}</p>
 
-      <button ng-show="product.canPurchase"> Add to Cart </button>
+      <button class="btn btn-primary" ng-show="product.canPurchase"> Add to Cart </button>
     </div>
 
   </body>
