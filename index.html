@@ -19,10 +19,11 @@
       <button class="btn btn-primary" ng-show="product.canPurchase"> Add to Cart </button>
       <section>
         <ul class="nav nav-pills">
-          <li> <a href>Description</a> </li>
-          <li> <a href>Specifications</a> </li>
-          <li> <a href>Reviews</a> </li>
+          <li> <a href ng-click="tab = 1">Description</a> </li>
+          <li> <a href ng-click="tab = 2">Specifications</a> </li>
+          <li> <a href ng-click="tab = 3">Reviews</a> </li>
         </ul>
+        {{tab}}
       </section>
     </div>
 
