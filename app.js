@@ -31,6 +31,23 @@
           full: 'img/Dodecahedron300.jpg',
           thumb: 'img/DodecahedronThumb.jpg',
         }
+      ],
+      reviews: [
+        {
+          stars: '4',
+          comment: 'Awesome product',
+          email: 'doe@mail.com'
+        },
+        {
+          stars: '1',
+          comment: 'Terrible product',
+          email: 'jane@mail.com'
+        },
+        {
+          stars: '5',
+          comment: 'Perfect product',
+          email: 'Mike@mail.com'
+        }
       ]
     },
     {
@@ -43,6 +60,23 @@
         {
           full: 'img/ruby300.jpg',
           thumb: 'img/rubyThumb.jpg',
+        }
+      ],
+      reviews: [
+        {
+          stars: '4',
+          comment: 'Awesome product',
+          email: 'doe@mail.com'
+        },
+        {
+          stars: '1',
+          comment: 'Terrible product',
+          email: 'jane@mail.com'
+        },
+        {
+          stars: '5',
+          comment: 'Perfect product',
+          email: 'Mike@mail.com'
         }
       ]
     },
@@ -57,6 +91,23 @@
           full: 'img/emerald300.jpg',
           thumb: 'img/emeraldThumb.jpg',
         }
+      ],
+      reviews: [
+        {
+          stars: '4',
+          comment: 'Awesome product',
+          email: 'doe@mail.com'
+        },
+        {
+          stars: '1',
+          comment: 'Terrible product',
+          email: 'jane@mail.com'
+        },
+        {
+          stars: '5',
+          comment: 'Perfect product',
+          email: 'Mike@mail.com'
+        }
       ]
     },
     {
@@ -69,6 +120,23 @@
         {
           full: 'img/diamond300.jpg',
           thumb: 'img/diamondThumb.jpg',
+        }
+      ],
+      reviews: [
+        {
+          stars: '4',
+          comment: 'Awesome product',
+          email: 'doe@mail.com'
+        },
+        {
+          stars: '1',
+          comment: 'Terrible product',
+          email: 'jane@mail.com'
+        },
+        {
+          stars: '5',
+          comment: 'Perfect product',
+          email: 'Mike@mail.com'
         }
       ]
     }
