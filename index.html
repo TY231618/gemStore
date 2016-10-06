@@ -10,7 +10,8 @@
     <!-- attach controller with actual name and give it an alias using as -->
     <div ng-repeat="product in store.products" ng-hide="store.product.soldOut">
       <h1>{{product.name}}</h1>
-      <h2>{{product.price}}</h2>
+      <img ng-src="{{product.images[0].full}}" />
+      <h2>{{product.price | currency}}</h2>
       <p>{{product.description}}</p>
 
       <button ng-show="product.canPurchase"> Add to Cart </button>
