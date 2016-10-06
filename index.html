@@ -39,6 +39,20 @@
         <div class="panel" ng-show="panel.isSelected(3)">
           <h4>Reviews</h4>
           <blockquote>None yet</blockquote>
+
+          <form name="reviewForm">
+            <select>
+              <option value="1">1 star</option>
+              <option value="2">2 star</option>
+              <option value="3">3 star</option>
+              <option value="4">4 star</option>
+              <option value="5">5 star</option>
+            </select>
+            <textarea></textarea>
+            <label>by:</label>
+            <input type="email" />
+            <input type="submit" value="submit" />
+          </form>
         </div>
       </div>
     </section>
