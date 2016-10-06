@@ -45,16 +45,21 @@
           </blockquote>
 
           <form name="reviewForm">
-            <select>
+            <blockquote>
+              <b>Stars: {{review.stars}}</b>
+              {{review.comment}}
+              <cite>By: {{review.email}}</cite>
+            </blockquote>
+            <select ng-model="review.stars">
               <option value="1">1 star</option>
               <option value="2">2 star</option>
               <option value="3">3 star</option>
               <option value="4">4 star</option>
               <option value="5">5 star</option>
             </select>
-            <textarea></textarea>
+            <textarea ng-model="review.comment"></textarea>
             <label>by:</label>
-            <input type="email" />
+            <input ng-model="review.email" type="email" />
             <input type="submit" value="submit" />
           </form>
         </div>
