@@ -4,22 +4,29 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   </head>
   <body ng-controller="StoreController as store">
-    <script type="text/javascript" src="angular.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-
+    <h1>Welcome to the Flat Lander Store</h1>
     <!-- attach controller with actual name and give it an alias using as -->
     <div ng-repeat="product in store.products" ng-hide="store.product.soldOut">
       <h1>{{product.name}}</h1>
 
-      <!-- trying to use repeat again to display all images -->
+      <!-- repeat to display all images will not work due to structure of my images array object -->
       <!-- <li ng-repeat="image in product.images"> -->
-        <img ng-src="{{ product.images[0].thumb }}" />
+        <img ng-src="{{product.images[0].thumb}}" />
       <!-- </li> -->
       <h2>{{product.price | currency}}</h2>
       <p>{{product.description}}</p>
 
       <button class="btn btn-primary" ng-show="product.canPurchase"> Add to Cart </button>
+      <section>
+        <ul class="nav nav-pills">
+          <li> <a href>Description</a> </li>
+          <li> <a href>Specifications</a> </li>
+          <li> <a href>Reviews</a> </li>
+        </ul>
+      </section>
     </div>
 
   </body>
+  <script type="text/javascript" src="angular.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </html>
