@@ -44,7 +44,7 @@
             <cite>By: {{review.email}}</cite>
           </blockquote>
 
-          <form name="reviewForm" ng-controller="ReviewController as reviewCtrl">
+          <form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)">
             <blockquote>
               <b>Stars: {{reviewCtrl.review.stars}}</b>
               {{reviewCtrl.review.comment}}
