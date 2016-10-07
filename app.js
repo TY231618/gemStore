@@ -23,6 +23,7 @@
     this.review = {};
 
     this.addReview = function(product) {
+      this.review.createdOn = Date.now();
       product.reviews.push(this.review);
       this.review = {};
     };
@@ -46,17 +47,20 @@
         {
           stars: '4',
           comment: 'Awesome product',
-          email: 'doe@mail.com'
+          email: 'doe@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '1',
           comment: 'Terrible product',
-          email: 'jane@mail.com'
+          email: 'jane@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '5',
           comment: 'Perfect product',
-          email: 'Mike@mail.com'
+          email: 'Mike@mail.com',
+          createdOn: 1397490980837
         }
       ]
     },
@@ -76,17 +80,20 @@
         {
           stars: '4',
           comment: 'Awesome product',
-          email: 'doe@mail.com'
+          email: 'doe@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '1',
           comment: 'Terrible product',
-          email: 'jane@mail.com'
+          email: 'jane@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '5',
           comment: 'Perfect product',
-          email: 'Mike@mail.com'
+          email: 'Mike@mail.com',
+          createdOn: 1397490980837
         }
       ]
     },
@@ -106,17 +113,20 @@
         {
           stars: '4',
           comment: 'Awesome product',
-          email: 'doe@mail.com'
+          email: 'doe@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '1',
           comment: 'Terrible product',
-          email: 'jane@mail.com'
+          email: 'jane@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '5',
           comment: 'Perfect product',
-          email: 'Mike@mail.com'
+          email: 'Mike@mail.com',
+          createdOn: 1397490980837
         }
       ]
     },
@@ -136,17 +146,20 @@
         {
           stars: '4',
           comment: 'Awesome product',
-          email: 'doe@mail.com'
+          email: 'doe@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '1',
           comment: 'Terrible product',
-          email: 'jane@mail.com'
+          email: 'jane@mail.com',
+          createdOn: 1397490980837
         },
         {
           stars: '5',
           comment: 'Perfect product',
-          email: 'Mike@mail.com'
+          email: 'Mike@mail.com',
+          createdOn: 1397490980837
         }
       ]
     }
