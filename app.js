@@ -30,12 +30,12 @@
 
   });
 
-  // app.directive('productDetails', function() {
-  //   return {
-  //     restrict: 'E',
-  //     templateUrl: 'product-details.html'
-  //   };
-  // });
+  app.directive('productDetails', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'product-details.html'
+    };
+  });
 
   var gems = [
     {

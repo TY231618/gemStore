@@ -8,13 +8,8 @@
     <h1>Welcome to the Flat Lander Store</h1>
     <!-- attach controller with actual name and give it an alias using as -->
     <div ng-repeat="product in store.products" ng-hide="store.product.soldOut">
-      <!-- <div ng-include src="'product-details.html'"></div> -->
-      <h1>{{product.name}}</h1>
-      <!-- repeat to display all images will not work due to structure of my images array object -->
-      <!-- <li ng-repeat="image in product.images"> -->
-        <img ng-src="{{product.images[0].thumb}}" />
-      <!-- </li> -->
-      <h2>{{product.price | currency}}</h2>
+
+      <product-details></product-details>
       <button class="btn btn-primary" ng-show="product.canPurchase"> Add to Cart </button>
       <br><br>
       <section ng-controller="PanelController as panel">
