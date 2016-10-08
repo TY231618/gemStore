@@ -9,3 +9,5 @@ custom directives are good as it makes the html more expressive and can show wha
 can also put controller functionality into directives using controller: function(){ 'logic' } and controllerAs: 'alias name'.  Then remove from ng-conrtroller in template.html
 
 When you have multiple directives relating to the same thing i.e product or reviews you can refactor them to their own module.  Once done you then need to inject this new module to the original module.  Also dont forget to pull new module into html through script tag
+
+pulled array of products into a json file then used a service ($http) in a controller to get the json file and display the products

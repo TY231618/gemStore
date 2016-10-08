@@ -1,3 +1,4 @@
+// wrapping javascript in a closure is a good habit
 (function() {
   var app = angular.module('store-reviews', []);
 
