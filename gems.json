@@ -1,0 +1,34 @@
+
+{
+  "name": "Dodecahedron",
+  "price": "2.95",
+  "description": "Some gems have hidden qualities beyond their luster, beyond their shine... Dodeca is one of those gems.",
+  "canPurchase": "true",
+  "soldOut": "false",
+  "images": [
+    {
+      "full": "img/Dodecahedron300.jpg",
+      "thumb": "img/DodecahedronThumb.jpg",
+    }
+  ],
+  "reviews": [
+    {
+      "stars": "4",
+      "comment": "Awesome product",
+      "email": "doe@mail.com",
+      "createdOn": "1397490980837"
+    },
+    {
+      "stars": "1",
+      "comment": "Terrible product",
+      "email": "jane@mail.com",
+      "createdOn": "1397490980837"
+    },
+    {
+      "stars": "5",
+      "comment": "Perfect product",
+      "email": "Mike@mail.com",
+      "createdOn": "1397490980837"
+    }
+  ]
+}
