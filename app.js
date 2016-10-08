@@ -37,6 +37,13 @@
     };
   });
 
+  app.directive('reviewForm', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'review-form.html'
+    };
+  });
+
   var gems = [
     {
       name: 'Dodecahedron',
