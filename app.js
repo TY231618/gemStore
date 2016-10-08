@@ -32,6 +32,7 @@
 
   app.directive('productDetails', function() {
     return {
+      // stands for element ie new html element
       restrict: 'E',
       templateUrl: 'product-details.html'
     };
@@ -42,6 +43,15 @@
       restrict: 'E',
       templateUrl: 'review-form.html'
     };
+  });
+
+  app.directive('panelTemplate', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'panel-template.html',
+      controller: function() {},
+      controllerAs: 'panel'
+    }
   });
 
   var gems = [
