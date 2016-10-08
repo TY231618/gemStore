@@ -49,7 +49,7 @@
             <blockquote>
               <b class="ng-pristine ng-dirty">Stars: {{reviewCtrl.review.stars}}</b>
               {{reviewCtrl.review.comment}}
-              <cite>By: {{reviewCtrl.review.email}} on {{reviewCtrl.review.createdOn}}</cite>
+              <cite>By: {{reviewCtrl.review.email}} on {{reviewCtrl.review.createdOn | date}}</cite>
             </blockquote>
             <select ng-model="reviewCtrl.review.stars" required>
               <option value="1">1 star</option>
