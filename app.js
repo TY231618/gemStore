@@ -1,6 +1,6 @@
 // wrapping javascript in a closure is a good habit
 (function() {
-  var app = angular.module('store', []);
+  var app = angular.module('store', ['store-reviews']);
 
   app.controller('StoreController', function() {
     this.products = gems;
@@ -22,13 +22,6 @@
       // stands for element ie new html element
       restrict: 'E',
       templateUrl: 'product-details.html'
-    };
-  });
-
-  app.directive('reviewForm', function() {
-    return {
-      restrict: 'E',
-      templateUrl: 'review-form.html'
     };
   });
 
