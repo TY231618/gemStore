@@ -7,8 +7,8 @@
     "soldOut": false,
     "images": [
       {
-        "full": "img/Dodecahedron300.jpg",
-        "thumb": "img/DodecahedronThumb.jpg"
+        "full": "/app/img/Dodecahedron300.jpg",
+        "thumb": "/app/img/DodecahedronThumb.jpg"
       }
     ],
     "reviews": [
@@ -40,8 +40,8 @@
     "soldOut": false,
     "images": [
       {
-        "full": "img/ruby300.jpg",
-        "thumb": "img/rubyThumb.jpg"
+        "full": "/app/img/ruby300.jpg",
+        "thumb": "/app/img/rubyThumb.jpg"
       }
     ],
     "reviews": [
@@ -73,8 +73,8 @@
     "soldOut": false,
     "images": [
       {
-        "full": "img/emerald300.jpg",
-        "thumb": "img/emeraldThumb.jpg"
+        "full": "/app/emerald300.jpg",
+        "thumb": "/app/img/emeraldThumb.jpg"
       }
     ],
     "reviews": [
@@ -106,8 +106,8 @@
     "soldOut": false,
     "images": [
       {
-        "full": "img/diamond300.jpg",
-        "thumb": "img/diamondThumb.jpg"
+        "full": "/app/img/diamond300.jpg",
+        "thumb": "/app/img/diamondThumb.jpg"
       }
     ],
     "reviews": [
